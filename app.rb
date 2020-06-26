@@ -1,6 +1,3 @@
-require 'pry'
-require 'rspec'
-
 class Company
     attr_accessor :name, :size
 
@@ -41,4 +38,4 @@ end
 def sort_by_largest companies
     companies.sort_by(&:size).reverse!
 end
-binding.pry
+
